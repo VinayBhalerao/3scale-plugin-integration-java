@@ -27,7 +27,7 @@ public class AllCallsExample implements TestKeys {
         ParameterMap usage = new ParameterMap();                          // Add a metric
         usage.add("hits", "1");
 
-        params.add("usage", usage);
+        params.add("configuration_v33", usage);
 
         AuthorizeResponse response = null;
         // the 'preferred way': authrep
