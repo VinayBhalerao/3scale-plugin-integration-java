@@ -30,7 +30,7 @@ public class HelloResource {
 
         ParameterMap usage = new ParameterMap(); // Add a metric to the call
         usage.add("hits_001", "1");
-	usage.add("hits", "1");
+	usage.add("hits", "0");
         usage.add("configuration_v33", "1");
 	usage.add("configuration_v34", "1");
 
