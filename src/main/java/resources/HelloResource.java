@@ -32,6 +32,7 @@ public class HelloResource {
         usage.add("hits_001", "1");
 	usage.add("hits", "1");
         usage.add("configuration_v33", "1");
+	usage.add("configuration_v34", "1");
 
         params.add("usage", usage);              // metrics belong inside the usage parameter
 
