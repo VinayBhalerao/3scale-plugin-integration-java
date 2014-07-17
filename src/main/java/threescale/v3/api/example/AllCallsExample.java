@@ -28,6 +28,8 @@ public class AllCallsExample implements TestKeys {
         usage.add("hits", "1");
 
         usage.add("configuration_v33", "1");
+        
+        params.add("usage", usage);
 
         AuthorizeResponse response = null;
         // the 'preferred way': authrep
