@@ -7,7 +7,7 @@ public interface TestKeys {
     static String my_provider_key = "9062f7afd5a594f2e9882c34206eea67";
 
     //API Key
-    static String user_key            = "2a441e47aae6656ef244d3a6bfd298d0";
+    static String user_key            = "76dbf789972cfec32c2b8b91e82fe082";
     static String user_key_service_id = "2555417722022";
 
 }

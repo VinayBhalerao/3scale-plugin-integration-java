@@ -21,7 +21,7 @@ public class AllCallsExample implements TestKeys {
         ServiceApi serviceApi = new ServiceApiDriver(my_provider_key);    // Create the API object
 
         ParameterMap params = new ParameterMap();
-        params.add("2a441e47aae6656ef244d3a6bfd298d0", user_key);                                 // Add keys for authrep or authorize
+        params.add("76dbf789972cfec32c2b8b91e82fe082", user_key);                                 // Add keys for authrep or authorize
         params.add("2555417722022", user_key_service_id);
 
         ParameterMap usage = new ParameterMap();                          // Add a metric
