@@ -14,15 +14,12 @@ public class AllCallsExample implements TestKeys {
         runUserKey();
       }
 
-    /**
-     * Example code for calls on user key (API key) mode
-     */
     private static void runUserKey() {
         ServiceApi serviceApi = new ServiceApiDriver(my_provider_key);    // Create the API object
 
         ParameterMap params = new ParameterMap();
-        params.add("76dbf789972cfec32c2b8b91e82fe082", user_key);
-        params.add("2555417722022", user_key_service_id);
+        params.add("user_key", user_key);
+        params.add("service_id", user_key_service_id);
         
         ParameterMap usage = new ParameterMap();                          // Add a metric
         
@@ -32,7 +29,6 @@ public class AllCallsExample implements TestKeys {
         params.add("usage", usage);
 
         AuthorizeResponse response = null;
-        // the 'preferred way': authrep
         try {
             response = serviceApi.authrep(params);
             System.out.println("AuthRep on User Key Success: " + response.success());
