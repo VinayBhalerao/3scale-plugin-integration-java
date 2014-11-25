@@ -30,8 +30,8 @@ public class HelloResource {
 
         ParameterMap usage = new ParameterMap(); // Add a metric to the call
 	//usage.add("hits", "1");
-        usage.add("API-A", "1");
-        usage.add("APICalls", "1");
+        //usage.add("API-A", "1");
+        usage.add("hits", "0");
         params.add("usage", usage);              // metrics belong inside the usage parameter
 
         AuthorizeResponse response = null;
