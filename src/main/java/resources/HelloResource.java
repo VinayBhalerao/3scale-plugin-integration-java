@@ -14,10 +14,10 @@ import threescale.v3.api.impl.ServiceApiDriver;
 @Path("/hello")
 public class HelloResource {
 
-    private String my_provider_key = "<your_provider_key>";
+    private String my_provider_key = "9062f7afd5a594f2e9882c34206eea67";
     //API Key
-    static String user_key            = "<your_user_key>";
-    static String user_key_service_id = "<your_service_id>";
+    static String user_key            = "a9171e63c10b987f9df7c86e268ec562";
+    static String user_key_service_id = "2555417722022";
 
 
     @GET
@@ -29,7 +29,7 @@ public class HelloResource {
         params.add("service_id", user_key_service_id);  // Add the service id of your application
 
         ParameterMap usage = new ParameterMap(); // Add a metric to the call
-	usage.add("hits", "0");
+	usage.add("Points", "0");
 
         params.add("usage", usage);              // metrics belong inside the usage parameter
 
