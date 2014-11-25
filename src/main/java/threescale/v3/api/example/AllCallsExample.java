@@ -18,9 +18,10 @@ public class AllCallsExample implements TestKeys {
         ServiceApi serviceApi = new ServiceApiDriver("9062f7afd5a594f2e9882c34206eea67");    // Create the API object
 
         ParameterMap params = new ParameterMap();
-        params.add("727440b359299cd369edb8f2e1371e1b", user_key);
-        params.add("2555417722022", service_id);
-        
+        //params.add("727440b359299cd369edb8f2e1371e1b", user_key);
+        String user_key = "a9171e63c10b987f9df7c86e268ec562";
+        //params.add("2555417722022", service_id);
+        params.add("service_id", "2555417722022"); 
         ParameterMap usage = new ParameterMap();                          // Add a metric
         
 	usage.add("hits", "2");
