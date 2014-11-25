@@ -24,7 +24,7 @@ public class AllCallsExample implements TestKeys {
         params.add("service_id", "2555417722022"); 
         ParameterMap usage = new ParameterMap();                          // Add a metric
         
-	usage.add("hits", "2");
+	usage.add("Points", "2");
         
         params.add("usage", usage);
 
