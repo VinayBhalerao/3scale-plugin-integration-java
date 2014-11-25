@@ -29,7 +29,7 @@ public class HelloResource {
         params.add("service_id", user_key_service_id);  // Add the service id of your application
 
         ParameterMap usage = new ParameterMap(); // Add a metric to the call
-//	usage.add("Points", "1");
+	usage.add("Total_API_Calls", "1");
         usage.add("API-A", "1");
 
         params.add("usage", usage);              // metrics belong inside the usage parameter
