@@ -14,10 +14,10 @@ import threescale.v3.api.impl.ServiceApiDriver;
 @Path("/hello")
 public class HelloResource {
 
-    private String my_provider_key = "9062f7afd5a594f2e9882c34206eea67";
-    //API Key
-    static String user_key            = "a9171e63c10b987f9df7c86e268ec562";
-    static String user_key_service_id = "2555417722022";
+    private String my_provider_key = "YOUR_PROVIDER_KEY";
+    //Note that the api key is hardcoded. so need to send the user_key in params
+    static String user_key            = "YOUR_USER_KEY";
+    static String user_key_service_id = "SERVICE_ID";
 
 
     @GET
